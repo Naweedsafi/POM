@@ -1,0 +1,16 @@
+com\selenium\test\scripts\WindowHandleTests.class
+com\selenium\library\DatabaseManager.class
+com\selenium\library\JavaPropertiesManager.class
+com\selenium\greatcourses\pages\ChooseAFormatPage.class
+com\selenium\greatcourses\pages\CheckOutProgressPage.class
+com\selenium\greatcourses\pages\CheckOutPage.class
+com\selenium\test\scripts\LoggingTests.class
+com\selenium\test\scripts\OracleDBTesting.class
+com\selenium\library\EmailManager$1.class
+com\selenium\library\EmailManager.class
+com\selenium\greatcourses\pages\HomePage.class
+com\selenium\library\Base.class
+com\selenium\library\GlobalSeleniumLibrary$1.class
+com\selenium\test\scripts\SmokeTests.class
+com\selenium\greatcourses\pages\CoursesPage.class
+com\selenium\library\GlobalSeleniumLibrary.class

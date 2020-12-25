@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="168191" started-at="2020-04-25T17:04:02Z" finished-at="2020-04-25T17:06:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="168191" started-at="2020-04-25T17:04:02Z" finished-at="2020-04-25T17:06:51Z">
+      <class name="com.selenium.test.scripts.DataDrivenTests">
+        <test-method status="PASS" signature="beforeAllTests()[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="beforeAllTests" is-config="true" duration-ms="38" started-at="2020-04-25T13:04:02Z" finished-at="2020-04-25T13:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTests -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="set_up" is-config="true" duration-ms="24795" started-at="2020-04-25T13:04:03Z" finished-at="2020-04-25T13:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="dataDrivenTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="dataDrivenTests" duration-ms="20658" started-at="2020-04-25T13:04:28Z" data-provider="MortgageTestDataSet4" finished-at="2020-04-25T13:04:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fixed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4.75]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Bi-Weekly]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$2,608.24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTests -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="tearDown" is-config="true" duration-ms="5020" started-at="2020-04-25T13:04:48Z" finished-at="2020-04-25T13:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataDrivenTests status=SUCCESS method=DataDrivenTests.dataDrivenTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="set_up" is-config="true" duration-ms="12348" started-at="2020-04-25T13:04:53Z" finished-at="2020-04-25T13:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="FAIL" signature="dataDrivenTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="dataDrivenTests" duration-ms="20381" started-at="2020-04-25T13:05:06Z" data-provider="MortgageTestDataSet4" finished-at="2020-04-25T13:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fixed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7.25]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$200]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [$200] but found [$6,894.04]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [$200] but found [$6,894.04]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.selenium.test.scripts.DataDrivenTests.dataDrivenTests(DataDrivenTests.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTests -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="tearDown" is-config="true" duration-ms="5235" started-at="2020-04-25T13:05:26Z" finished-at="2020-04-25T13:05:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataDrivenTests status=FAILURE method=DataDrivenTests.dataDrivenTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="set_up" is-config="true" duration-ms="12504" started-at="2020-04-25T13:05:31Z" finished-at="2020-04-25T13:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="FAIL" signature="dataDrivenTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="dataDrivenTests" duration-ms="22037" started-at="2020-04-25T13:05:44Z" data-provider="MortgageTestDataSet4" finished-at="2020-04-25T13:06:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Fixed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5.1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Bi-Weekly]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$400]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [$400] but found [$10,859.00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [$400] but found [$10,859.00]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.selenium.test.scripts.DataDrivenTests.dataDrivenTests(DataDrivenTests.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTests -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="tearDown" is-config="true" duration-ms="5227" started-at="2020-04-25T13:06:06Z" finished-at="2020-04-25T13:06:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataDrivenTests status=FAILURE method=DataDrivenTests.dataDrivenTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="set_up()[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="set_up" is-config="true" duration-ms="12431" started-at="2020-04-25T13:06:11Z" finished-at="2020-04-25T13:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_up -->
+        <test-method status="PASS" signature="dataDrivenTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="dataDrivenTests" duration-ms="21736" started-at="2020-04-25T13:06:24Z" data-provider="MortgageTestDataSet4" finished-at="2020-04-25T13:06:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Variable]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2025]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Bi-Weekly]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[$81,763.56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTests -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="tearDown" is-config="true" duration-ms="5116" started-at="2020-04-25T13:06:45Z" finished-at="2020-04-25T13:06:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dataDrivenTests status=SUCCESS method=DataDrivenTests.dataDrivenTests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterAllTests()[pri:0, instance:com.selenium.test.scripts.DataDrivenTests@f6efaab]" name="afterAllTests" is-config="true" duration-ms="17" started-at="2020-04-25T13:06:51Z" finished-at="2020-04-25T13:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTests -->
+      </class> <!-- com.selenium.test.scripts.DataDrivenTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

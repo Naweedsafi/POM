@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.selenium.test.scripts.SmokeTests]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.selenium.test.scripts.SmokeTests">
+        <methods>
+          <include name="set_up"/>
+          <include name="buyNightSkyCourse_Test"/>
+          <include name="beforeAllTests"/>
+        </methods>
+      </class> <!-- com.selenium.test.scripts.SmokeTests -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.selenium.test.scripts.SmokeTests] -->
