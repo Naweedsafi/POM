@@ -35,7 +35,7 @@ public class CheckOutPage extends Base {
 		assertEquals(productNameTxt, "Our Night Sky");		
 		return this;
 	}
-}
+}// Check out Page
 
 
 
